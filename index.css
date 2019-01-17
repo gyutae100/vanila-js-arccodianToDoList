@@ -1,0 +1,24 @@
+#accordion-header{
+    background : #333;
+    color: white;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+}
+
+#accordion-body{
+    background : #444;
+    color : white;
+    width: 500px;
+    height: 30px;
+    display: none;
+}
+
+#accordion-body.active{
+    display:block;
+}
+
+#according-body span{
+
+    color : blue;
+}
